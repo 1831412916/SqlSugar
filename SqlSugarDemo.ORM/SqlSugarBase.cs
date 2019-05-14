@@ -7,7 +7,7 @@ namespace SqlSugarDemo.ORM
 {
     public class SqlSugarBase
     {
-        public static string DB_ConnectionString = @"Data Source=DESKTOP-0KHQ8KN\XPS;Initial Catalog=SqlSugarDemo;Integrated Security=True";//定义连接字符串变量
+        public static string DB_ConnectionString = @"Data Source=DESKTOP-0KHQ8KN\XPS;Initial Catalog=SqlSugarDemo;Integrated Security=True";//定义连接字符串变量，
         public static SqlSugarClient DB
         {
             get => new SqlSugarClient(new ConnectionConfig()
